@@ -1,0 +1,27 @@
+/*start main rules*/
+
+.container{width:900px;margin:auto;font-family:"Trebuchet MS", Helvetica, sans-serif;height: 637px}
+
+/*start main rules*/
+
+/*start contact*/
+.contact .social h2 span {background-color: #ffb951;border-radius: 50%;padding: 5px;color: #fff}
+.contact .social hr {width: 30px;float:left;height: 1px;background: #464646;border: 0;clear: both;margin:0;top:-5px;position: relative}
+.contact, .social, .contact .social .elements, .contact .social .elements .group {overflow:hidden}
+.contact .social  h2 {text-transform: uppercase;margin-bottom: 0;}
+.contact .social .elements .group {margin-bottom: 15px;text-transform: uppercase}
+.contact .social .elements .group img {float:left;position:relative;margin-left: 12px;width: 123px}
+.contact .social .elements .group .link {display: inline-block;margin: 55px 0 0 -8px;font-size: 0px;color: #464646;padding: 5px 0;transition:all 1s ease-in-out}
+.contact .social .elements .group img:hover ~ .facebook,.contact .social .elements .group .facebook:hover {background-color:#3B5998}
+.contact .social .elements .group img:hover ~ .twitter,.contact .social .elements .group .twitter:hover {background-color:#239FD4}
+.contact .social .elements .group img:hover ~ .youtube,.contact .social .elements .group .youtube:hover {background-color:#FF0500}
+.contact .social .elements .group img:hover ~ .skype,.contact .social .elements .group .skype:hover {background-color:#239FD4}
+
+.contact .social .elements .group .link span a {text-decoration:none;color:#fff}
+.contact .social .elements .group .link span a:hover {text-decoration:underline}
+.contact .social .elements .group img:hover ~ .link,.contact .social .elements .group .link:hover {margin: 42px 0 0 -8px;font-size: 25px;padding: 5px 130px 5px 110px}
+.contact .container > span {float:right;bottom: 60px;position: relative;background-color: #f7ae41;padding:10px;font-weight: 600;}
+.contact .container {overflow:hidden}
+.contact .container span a {text-transform: uppercase;text-decoration:none;color:#fff}
+.contact .container span a:hover {color:#2c2c2c}
+/*end contact*/
